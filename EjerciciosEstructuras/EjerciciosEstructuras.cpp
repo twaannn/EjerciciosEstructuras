@@ -104,6 +104,132 @@ void ejercicio6() {
     }
 }
 
+void ejercicio7() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 1; i <= N; i++) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio8() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 2; i <= N; i += 2) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio9() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 1; i <= N; i += 2) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio9() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 1; i <= N; i += 2) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio10() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 3; i <= N; i += 3) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio11() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 4; i <= N; i += 4) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio12() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = 1; i <= N; i++) {
+        suma -= i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio13() {
+    int N;
+    cout << "Ingrese N (mayor o igual a -100): ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = -100; i >= N; i++) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio14() {
+    int N;
+    cout << "Ingrese N (mayor o igual a -1000): ";
+    cin >> N;
+
+    int suma = 0;
+
+    for (int i = -1000; i >= N; i += 10) {
+        suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
 int main()
 {
 	ejercicio4();
