@@ -230,6 +230,188 @@ void ejercicio14() {
     cout << "Resultado: " << suma << endl;
 }
 
+void ejercicio15() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+        if (i % 2 == 0)
+            suma -= i;
+        else
+            suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio16() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+        int valor = i * 2;
+
+        if (i % 3 == 0)
+            suma -= valor;
+        else
+            suma += valor;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio17() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+        if (i % 3 == 0)
+            suma -= i;
+        else
+            suma += i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio18() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int a = 1, b = 1, suma = 0;
+
+    for (int i = 1; i <= N; i++) {
+        suma += a;
+
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio19() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int valor = -4;
+
+    for (int i = 1; i <= N; i++) {
+
+        if (i % 3 == 0)
+            suma += -valor;
+        else
+            suma += valor;
+
+        valor -= 4;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio20() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+
+        if (i % 4 == 0)
+            suma += i;
+        else
+            suma -= i;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio21() {
+    int N;
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int a = 2, b = 2, suma = 0;
+
+    for (int i = 1; i <= N; i++) {
+        suma += a;
+
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio22() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+        if (i % 2 == 0)
+            suma -= 3;
+        else
+            suma += 3;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio23() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+        suma += (i % 3 == 0) ? 3 : i % 3;
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio24() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int valores[4] = { 2,4,6,8 };
+
+    for (int i = 0; i < N; i++) {
+        suma += valores[i % 4];
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
+
+void ejercicio25() {
+    int N, suma = 0;
+
+    cout << "Ingrese N: ";
+    cin >> N;
+
+    int valores[5] = { 5,4,3,2,1 };
+
+    for (int i = 0; i < N; i++) {
+        suma += valores[i % 5];
+    }
+
+    cout << "Resultado: " << suma << endl;
+}
 int main()
 {
 	ejercicio4();
